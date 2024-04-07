@@ -1,7 +1,8 @@
 create table person (
     id serial primary key,
-    name varchar(255),
+    name varchar(255) not null,
     lastname varchar(255)
+    age integer
 );
 
 create table post (
